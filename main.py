@@ -43,7 +43,7 @@ def main():
                         baseline = computeBaseline(calibration_data)
                         calibrated = True
                         draw_face_mesh = False
-                        sys.stdout.write("\rCalibration complete\n")
+                        sys.stdout.write("\rCalibration complete\n\n\n")
                         sys.stdout.flush()
                 else:
                     face_direction = getFaceDir(face_landmarks, baseline)
